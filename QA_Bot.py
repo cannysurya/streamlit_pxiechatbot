@@ -40,7 +40,7 @@ query_engine_tools = [
 s_engine = SubQuestionQueryEngine.from_defaults(query_engine_tools=query_engine_tools)
 
 
-st.title("Product Specification Chatbot")
+st.title("Product Specification Q&A bot")
 st.caption("You can switch to chat mode through navigation bar - Chat Bot")
 query = st.text_input("Ask about PXIe-4139 or PXIe-4147:")
 
